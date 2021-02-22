@@ -3,7 +3,11 @@ import styled from "styled-components";
 
 function Header () {
   return <HeaderContainer>
-      <h1>Test</h1>
+      {/* Header Left */}
+
+      {/* Header Search */}
+
+      {/* Header Right */}
   </HeaderContainer>
 }
 
