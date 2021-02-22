@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Header from './Header';
 
 function App () {
   return (
@@ -12,7 +13,7 @@ function App () {
             renders the first one that matches the current URL. */}
           <Switch>
             <Route path="/">
-              <h1>This is the homepage</h1>
+              <Header />
             </Route>
           </Switch>
         </>
