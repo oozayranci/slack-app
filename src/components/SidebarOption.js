@@ -19,6 +19,17 @@ function SidebarOption({ Icon, title }) {
 
 export default SidebarOption
 
-const SidebarOptionContainer = styled.div``;
+const SidebarOptionContainer = styled.div`
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    padding-left: 2px;
+    cursor: pointer;
+
+    :hover {
+        opacity: 0.9;
+        background-color: #340e36;
+    }
+`;
 
 const SidebarOptionChannel = styled.div``;
