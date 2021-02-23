@@ -1,20 +1,14 @@
-import React from 'react'
-import { connect } from 'react-redux'
+import React from 'react';
+import styled from "styled-components";
 
-export const SidebarOption = (props) => {
+function SidebarOption() {
     return (
-        <div>
+        <SidebarOptionContainer>
             
-        </div>
+        </SidebarOptionContainer>
     )
 }
 
-const mapStateToProps = (state) => ({
-    
-})
+export default SidebarOption
 
-const mapDispatchToProps = {
-    
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(SidebarOption)
+const SidebarOptionContainer = styled.div``;
