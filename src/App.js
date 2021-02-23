@@ -15,7 +15,7 @@ function App () {
           <Sidebar />
           <Switch>
             <Route path="/" exact>
-              {/* Chat */}
+              { /* Chat */ }
             </Route>
           </Switch>
           </AppBody>
