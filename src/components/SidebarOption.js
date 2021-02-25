@@ -1,13 +1,13 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import styled from 'styled-components';
 import {db} from '../firebase';
 
-function SidebarOption({Icon, title, addChannelOption}) {
+function SidebarOption({Icon, title, addChannelOption, id}) {
   const addChannel = () => {
     const channelName = prompt ('Enter the channel name');
-
     if (channelName) {
-      db.collection ('rooms').add ({
+      db.collection ("rooms").add ({
         name: channelName,
       });
     }
@@ -50,4 +50,6 @@ const SidebarOptionContainer = styled.div`
     }
 `;
 
-const SidebarOptionChannel = styled.div``;
+const SidebarOptionChannel = styled.div`
+
+`;
