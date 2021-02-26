@@ -23,7 +23,7 @@ function Sidebar () {
     <SidebarContainer>
       <SidebarHeader>
         <SidebarInfo>
-          <h2>SiderBAR</h2>
+          <h2>Get Started</h2>
           <h3>
             <FiberManualRecordIcon />
             Ozan Özayranci
