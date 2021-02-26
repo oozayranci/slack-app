@@ -7,4 +7,5 @@
 # Technologies/libraries used with:
 - Redux
 - Firebase
- Styled-components
+- Firebase-hooks
+- Styled-components
