@@ -24,7 +24,7 @@ function Chat () {
       <>
       <Header>
         <HeaderLeft>
-          <h4><strong>#Room-Name</strong></h4>
+          <h4><strong>#{roomDetails?.data().name}</strong></h4>
           <StarBorderOutlinedIcon />
         </HeaderLeft>
 
