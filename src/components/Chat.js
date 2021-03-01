@@ -7,7 +7,7 @@ import { selectRoomId } from "../features/appSlice";
 import { useCollection, useDocument } from "react-firebase-hooks/firestore";
 import { db } from "../firebase";
 import ChatInput from './ChatInput';
-import { Message } from '@material-ui/icons';
+import Message from './Message';
 
 function Chat () {
   const roomId = useSelector(selectRoomId);
