@@ -1,11 +1,21 @@
 import React from 'react'
 import styled from "styled-components";
+import { Button } from "@material-ui/core";
 
 function Login() {
+    const signIn = (e) => {
+        e.preventDefault();
+    }
     return (
         <LoginContainer>
             <LoginInnerContainer>
                 <img src="https://a.slack-edge.com/80588/marketing/img/icons/icon_slack_hash_colored.png" alt=""/>
+                <h1>Sign in to the Slack Channels</h1>
+                <p>channel.slack.com</p>
+
+                <Button type='submit' onClick={signIn}>
+                    Sign in with Google
+                </Button>
             </LoginInnerContainer>
         </LoginContainer>
     )
