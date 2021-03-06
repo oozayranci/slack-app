@@ -57,7 +57,12 @@ function App () {
 
 export default App;
 
-const AppLoading = styled.div``;
+const AppLoading = styled.div`
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+`;
 const AppLoadingContent = styled.div`
   text-align: center;
   padding-bottom: 100px;
@@ -69,6 +74,7 @@ const AppLoadingContent = styled.div`
   > img {
     height: 100px;
     padding: 20px;
+    margin-bottom: 40px;
   }
 `;
 
