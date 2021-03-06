@@ -11,6 +11,16 @@ import Login from './components/Login';
 
 function App () {
   const [user, loading] = useAuthState(auth)
+
+  if (loading) {
+    return (
+      <AppLoading>
+        <AppLoadingContent>
+
+        </AppLoadingContent>
+      </AppLoading>
+    )
+  }
   return (
     <div className="App">
       <Router>
@@ -35,7 +45,11 @@ function App () {
   );
 }
 
+
 export default App;
+
+const AppLoading = styled.div``;
+const AppLoadingContent = styled.div``;
 
 const AppBody = styled.div`
   display: flex;
