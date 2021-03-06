@@ -8,6 +8,7 @@ import Chat from './components/Chat';
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "./firebase"
 import Login from './components/Login';
+import Spinner from 'react-spinkit';
 
 function App () {
   const [user, loading] = useAuthState(auth)
@@ -18,6 +19,12 @@ function App () {
         <AppLoadingContent>
             <img src="https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg"
                  alt=""
+            />
+
+            <Spinner 
+              name="ball-spin-fade-loader"
+              color="purple"
+              fadeIn="none"
             />
         </AppLoadingContent>
       </AppLoading>
