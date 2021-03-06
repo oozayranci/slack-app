@@ -16,7 +16,9 @@ function App () {
     return (
       <AppLoading>
         <AppLoadingContent>
-
+            <img src="https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg"
+                 alt=""
+            />
         </AppLoadingContent>
       </AppLoading>
     )
