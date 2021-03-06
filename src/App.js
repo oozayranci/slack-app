@@ -13,7 +13,7 @@ import Spinner from 'react-spinkit';
 function App () {
   const [user, loading] = useAuthState(auth)
 
-  if (loading) {
+  if (true) {
     return (
       <AppLoading>
         <AppLoadingContent>
@@ -58,7 +58,19 @@ function App () {
 export default App;
 
 const AppLoading = styled.div``;
-const AppLoadingContent = styled.div``;
+const AppLoadingContent = styled.div`
+  text-align: center;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  > img {
+    height: 100px;
+    padding: 20px;
+  }
+`;
 
 const AppBody = styled.div`
   display: flex;
