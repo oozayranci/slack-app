@@ -1,3 +1,5 @@
+# # Overview of the app: :
+https://slack-clone-2bd90.web.app/
 
 # To run the application:
 - npm install
